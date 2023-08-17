@@ -27,6 +27,6 @@ public class CalcSwitch {
 //            default:
 //                System.out.println("연산자를 잘 못 입력 하셨습니다.");
 
-        }
+//        }
     }
 }
