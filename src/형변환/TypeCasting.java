@@ -19,5 +19,7 @@ public class TypeCasting {
 
 
         System.out.println("평균은" + avg + "점 입니다.");
+
+        //형변환 주석이 반영되는지 확인
     }
 }
