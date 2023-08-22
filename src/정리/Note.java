@@ -5,14 +5,14 @@ package 정리;
 // 하고 switch문을 못쓸때는 if ~ else if else 문을 써야한다.
 //
 
-import java.util.Scanner;
-
+//import java.util.Scanner;
+//
 //public class Note {
 //    public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
 //        System.out.print("배수를 입력 하세요.");
 //        int ml = sc.nextInt();
-//        if (ml = )
+//        if (ml = );
 //
 //    }
 //}
