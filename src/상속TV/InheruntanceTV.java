@@ -6,7 +6,7 @@ public class InheruntanceTV {
         ProductTV productTV = new ProductTV("우리집 TV");
         productTV.setPower(true);
         productTV.setVolume(120);
-        productTV.setChannel(1500, false);
+        productTV.setChannel(500, false);
         productTV.viewTV();
 
     }
