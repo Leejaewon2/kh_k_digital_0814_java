@@ -21,6 +21,23 @@ public class DefaultMain {
             remoCon.setVolume(30);
             remoCon.setMute(true);
         }
+        RemoteControl ps5 = new RemoteControl() {
+            @Override
+            public void turnON() {
+                System.out.println("플스5 켭니다.");
+            }
 
+            @Override
+            public void turnOFF() {
+                System.out.println("플스5 끕니다.");
+            }
+
+            @Override
+            public void setVolume(int volume) {
+
+            }
+        };
+        ps5.turnON();
+        ps5.turnOFF();
     }
 }
