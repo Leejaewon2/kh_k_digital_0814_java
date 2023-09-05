@@ -1,6 +1,14 @@
+/*
+HashMap으로 커피 메뉴 리스트 만들기
+- 기존에 만들어진 프로젝트를 수정해 메뉴 종료 시 직렬화해서 파일에 저장하기
+- 새로운 파일 또는 프로젝트를 만들어 저장된 파일을 역직렬화해서 메뉴 리스트 출력하기
+ */
 package 커피메뉴만들기;
-// HashMap으로 커피 메뉴 리스트 만들기
 
+
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -95,6 +103,10 @@ public class CoffeeMenuList {
                     System.out.println("=".repeat(10) + "메뉴를 종료 합니다." + "=".repeat(10));
                     System.exit(0); // 강제 종료, return; 써도상관없음
                 default: System.out.println("선택하신 메뉴가 없습니다.");
+                    FileOutputStream fos = null;
+                    ObjectOutputStream oos = null;
+
+
             }
         }
     }

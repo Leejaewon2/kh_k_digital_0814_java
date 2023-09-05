@@ -1,75 +1,21 @@
 //package 이재원자동차;
 //
-//public class Car {
-//    private double speed;
-//    private double fuelEfficiency;
-//    private double fuelTankSize;
-//    private int seatCount;
-//    private String name;
+//public abstract class Car {
+//    protected int speed;
+//    protected int fuelEff;
+//    protected int fuelTank;
+//    protected int seatCount;
+//    protected String name;
 //
-//    public Car(double speed, double fuelEfficiency, double fuelTankSize, int seatCount, String name) {
-//        this.speed = speed;
-//        this.fuelEfficiency = fuelEfficiency;
-//        this.fuelTankSize = fuelTankSize;
-//        this.seatCount = seatCount;
-//        this.name = name;
-//    }
+//    abstract void setMode (boolean isMode);
 //
-//
-//    public double getSpeed() {
-//        return speed;
-//    }
-//
-//    public double getFuelEfficiency() {
-//        return fuelEfficiency;
-//    }
-//
-//    public double getFuelTankSize() {
-//        return fuelTankSize;
-//    }
-//
-//    public int getSeatCount() {
-//        return seatCount;
-//    }
-//
-//    public String getName() {
+//    public String getName () {
 //        return name;
 //    }
-//
-//    public void refuel(double liters) {
-//        fuelTankSize += liters;
-//        // Refuel logic here
+//    public getMovingCount(int passCnt) { // 이동횟수를 구하기 위해서는 참조변수 승객수가 있어야하므로 참조변수를 하나 만들어줘야함
+//        if (passCnt % seatCount != 0) return passCnt / seatCount) + 1;
+//        return passCnt / seatCount;
 //    }
 //
-//    public boolean travel(double distance) {
-//        double fuelNeeded = distance / fuelEfficiency;
-//        if (fuelTankSize >= fuelNeeded) {
-//            fuelTankSize -= fuelNeeded;
-//            return true;
-//        }
-//        return false;
-//        // Travel logic here
-//
-//    }
-//
-//    public double calculateCost(double distance, double fuelPricePerLiter) {
-//        double fuelNeeded = distance / fuelEfficiency;
-//        return fuelNeeded * fuelPricePerLiter;
-//    }
-//
-//    public double calculateTime(double distance) {
-//        return distance / speed;
-//    }
-//    public void setSeatCount(int seatCount) {
-//        this.seatCount = seatCount;
-//    }
-//
-//    public void setSpeed(double speed) {
-//        this.speed = speed;
-//    }
-//
-//    public void setFuelTankSize(double fuelTankSize) {
-//        this.fuelTankSize = fuelTankSize;
-//    }
 //}
 //

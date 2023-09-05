@@ -50,11 +50,11 @@ public class StreamEx2 {
 //        });
 
         // 향상된 for문을 사용한 방법
-//        for (Student s : list) {
-//            String name = s.getName();
-//            int score = s.getScore();
-//            System.out.println(name + " : " + score);
-//        }
+        for (Student s : list) {
+            String name = s.getName();
+            int score = s.getScore();
+            System.out.println(name + " : " + score);
+        }
 
         // 내부 반복자를 이용한 병렬처리
 //        list.parallelStream().forEach(s -> {
